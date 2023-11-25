@@ -1188,6 +1188,14 @@ dset;0;2]]
     mem+=16
   end
 
+	--@todo remove this
+	assert(_localboard)
+	assert(_total_time)
+	assert(obituary)
+	assert(_total_jewels)
+	assert(_total_bullets)
+	assert(_total_hits)
+
   -- leaderboard/retry
   local ttl,buttons,over_btn=90,{
     {"rETRY",1,111,cb=function() 
